@@ -1,0 +1,68 @@
+.header{
+    width: 400px;
+    height: 200px;
+    gap: 5px;
+    margin-left: 30%;
+    background: rgba(33, 33, 33, 0.623) url(./file/4.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.header h1 img{
+    width: 100px;
+    height: 20px;
+    border-top-left-radius: 1px;
+}
+
+.header h1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40%;
+    font-size: 20px;
+    padding: 3px;
+    background: black;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.all{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.image img{
+    width: 90px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.body{
+    line-height: 10px;
+    color: #fff;
+}
+
+.body p{
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+}
+
+.body p span{
+    font-weight: 500;
+}
+
+.snig img{
+    position: absolute;
+    top: 32%;
+    left: 57%;
+    width: 50px;
+    height: 30px;
+    background: #edecec08;
+}
